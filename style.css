@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+}
+.head-section{
+    background-color: #264653;
+}
+.puschase{
+    width: 552px;
+    height: 447px;
+    margin-left: 156px;
+    margin-top: 215px;
+}
+.computer-controlled{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+}
+.honda-cbr{
+    font-weight: 600px;
+    font-size: 48px;
+    line-height: 72px;
+}
+.about-purchase{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
+.button{
+    width: 168px;
+    height: 44px;
+    background: #E76F51;
+    border-radius: 5px;
+    padding: 10px;
+}
+.head-img{
+    margin-top: 155px;
+    margin-right: 183px;
+}
+.head-img img{
+    width: 552px;
+    height: 447px;
+}
+.feture-bike{
+    width: 442px;
+    height: 93px;
+    margin-left: 650px;
+    margin-top: 64px;
+}
+.feture-bike h1{
+    font-weight: 600; 
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    color: #000000;
+}
+.feture-bike p{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #E76F51;
+}
+.feture-bike-img{
+    width: 290px;
+    height: 245px;
+    margin-top: 175px;
+}
+#fetureBikeImg{
+    width: 288px;
+    height: 243px;
+    margin-right: 138px;
+    
+}
+#fetureBikeImg2{
+    width: 288px;
+    height: 243px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin-left: 300px;
+    margin-right: 138px;
+}
+#fetureBikeImg3{
+    width: 288px;
+    height: 243px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.clientSays{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+    width: 678px;
+    height: 50px;
+    margin-left: 650px;
+    margin-top: 100px;
+}
+.card{
+    width: 323px;
+    height: 478px;
+    margin-left: 192px;
+    margin-top: 52px;
+    padding: 40px 35px;
+    border: 1px solid #DEDEDE;
+    border-radius: 5px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+.cardImg{
+    width: 149px;
+    height: 149px;
+    margin-left: 50px;
+    margin-top: 10px;
+    border-radius: 80px;
+}
+.askQuestion{
+    width: 681px;
+    height: 50px;
+    margin-left: 580px;
+    margin-top: 200px;
+    margin-bottom: 100px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 50px;
+}
+.bikeShow{
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 800px;
+    height: 300px;
+}
+.bikePrize{
+    margin-top: 400px;
+    width: 1500px;
+    margin-left: 220px;
+}
+
+@media (max-width: 480px){
+    .clientSays{
+        width: 400px;  
+        margin-left: 18px;
+        margin-top: 600px;
+        font-weight: 500;
+        font-size: 40px;
+    }
+    .card{
+        width: 400px;
+        height: 478px;
+        margin-left: 20px;
+        margin-top: 52px;
+    }
+    .cardImg{   
+        margin-left: 80px;
+    }
+    .bikeShow{
+        margin-top: 100px;
+        margin-left: 5px;
+        width: 420px;
+        height: 300px;
+    }
+    .askQuestion{
+        width: 440px;
+        margin-left: 5px;
+    }
+    .bikePrize{
+        margin-top: 100px;
+        width: 430px;
+        margin-left: 5px;
+    }
+    .feture-bike-img{
+        width: 290px;
+        height: 245px;
+        margin-top: 175px;
+    }
+    #fetureBikeImg2{
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+    #fetureBikeImg3{
+        margin-left: 60px;
+    }
+    #fetureBikeImg{
+        margin-left: 60px;
+        margin-bottom: 50px;
+    }
+    .feture-bike-img{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .feture-bike{
+        width: 300px;
+        height: 30px;
+        margin-left: 40px;
+        margin-top: 250px;
+    }
+    .feture-bike h1{
+        font-weight: 400; 
+        font-size: 32px;
+    }
+    .head-section{
+        flex-direction: column;
+        width: 450px;
+    }
+    .puschase{
+        width: 400px;
+        height: 300px;
+        margin-left: 10px;
+        margin-top: 215px;
+    }
+    .head-img img{
+        width: 400px;
+        height: 400px;
+    }
+    .head-img{
+        margin-top: 155px;
+        margin-left: 5px;
+        width: 420px;
+    }
+}
